@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from copy import deepcopy
 import random 
+from PriorityQueue import PriorityQueue as PQ
 
 def degreeDiscountIC(G, k, new,neighbor_dict,p=.05):
     ''' Finds initial set of nodes to propagate in Independent Cascade model (with priority queue)
