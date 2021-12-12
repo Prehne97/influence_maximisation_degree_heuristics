@@ -87,7 +87,7 @@ def SecondNeighbourDegreeDiscountIC(G, k,neighbor_dict, p=.01,):
         S.append(u)
         for v in neighbor_dict[u]:
             if v not in S:
-                t[v] += 1 #G[u][v]['weight'] # increase number of selected neighbors
+                t[v] += G[u][v]['weight'] # increase number of selected neighbors
                 s_score= prob_function(p,t[v],T[v])*( p*(d[v] - t[v]) +  ((p**2)*(delta[v] - T[v]))  )
                 sdd.add_task(v, -s_score)
                 for w in neighbor_dict[v]:
