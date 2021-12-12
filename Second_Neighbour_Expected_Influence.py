@@ -7,7 +7,7 @@ import numpy as np
 from copy import deepcopy
 import random 
 
-from PriorityQueue import PriorityQueue as PQ
+from priorityQueue import PriorityQueue as PQ
 
 
 def prob_function(p,t_v,T_v):
