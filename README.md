@@ -31,6 +31,10 @@ musae-facebook:`http://snap.stanford.edu/data/facebook-large-page-page-network.h
 
 wikipidia -vote:`https://snap.stanford.edu/data/wiki-Vote.html`
 
+## Algorithms
+- Degree Discount and Expected Influence (degreeDiscountStar()  algorithms in Degree_DiscountIC.py
+- SNEI algorithm in Second_Neighbour_Expected_Influence.py 
+
 ## Run Experiments with Random Cascade evaluation
 run 
 
