@@ -1,6 +1,8 @@
 # influence_maximisation_degree_heuristics
 Repository for SNACS research project involving degree heuristics  for the influence maximization problem.
 
+
+
 ## Prerequisites
 
 - Python 3.7
@@ -14,10 +16,14 @@ run
 
 `python experiment_example.py --experiment=True`
 
-to do the compare
 ## Run only our new method
 run 
 
 `python experiment_example.py --experiment=False`  
-to do the new discount
 
+
+[4] Wei Chen, Yajun Wang, and Siyu Yang. 2009. Efficient Influence Maximization in
+Social Networks. In Proceedings of the 15th ACM SIGKDD International Conference
+on Knowledge Discovery and Data Mining (Paris, France) (KDD ’09). Association
+for Computing Machinery, New York, NY, USA, 199–208. https://doi.org/10.
+1145/155701
