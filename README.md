@@ -17,7 +17,7 @@ trary to what was implied in [1]. Based on our new theory and
 results, we believe that our Second Neighbours Expected Influence
 heuristics may compete with current state of the art methods, as 𝑘
 increases
-![Alt text](https://github.com/Prehne97/influence_maximisation_degree_heuristics/blob/main/prob2.PNG "Second Neighbor ")
+![Alt text](https://github.com/Prehne97/influence_maximisation_degree_heuristics/blob/main/prob2.PNG "Second Neighbor "=1000)
 
 ## Prerequisites
 
