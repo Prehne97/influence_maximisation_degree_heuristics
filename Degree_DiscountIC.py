@@ -12,7 +12,7 @@ from copy import deepcopy
 import random 
 from priorityQueue import PriorityQueue as PQ
 
-def degreeDiscountIC(G, k, new,neighbor_dict,p=.05):
+def degreeDiscountIC(G, k,p=.05):
     ''' Finds initial set of nodes to propagate in Independent Cascade model (with priority queue)
     Input: G -- networkx graph object
     k -- number of nodes needed
@@ -22,8 +22,6 @@ def degreeDiscountIC(G, k, new,neighbor_dict,p=.05):
     '''
     S = []
     dd = PQ() # degree discount
-    # t = dict() # number of adjacent vertices that are in S
-    # d = dict() # degree of each vertex
     t={}
     d={}
 
@@ -41,31 +39,7 @@ def degreeDiscountIC(G, k, new,neighbor_dict,p=.05):
         for v in G[u]:
             if v not in S:
                 t[v] += G[u][v]['weight'] # increase number of selected neighbors
-                #################new##################
-                if new == True:
-                    second=[]
-                    v_n= neighbor_dict[v]
-                    for node2 in v_n:
-                        for node3 in neighbor_dict[node2]:
-                            if node3 not in S and node3 not in v_n :
-                                second.append(node3)
-                    d_2 = len(second)
-                    priority = d[v] - 2*t[v] - (d[v] - t[v])*t[v]*p + p**2 * d_2
-                else:
-                    priority = d[v] - 2*t[v] - (d[v] - t[v])*t[v]*p 
-                    # second=[]
-                    # v_n=[]
-                    # for node1 in nx.neighbors(G,v):
-                    #     v_n.append(node1)
-                    # for node2 in v_n:
-                    #     for node3 in nx.neighbors(G,node2):
-                    #         if node3 not in S and node3 not in v_n :
-                    #             second.append(node3)
-                    # d_2 = len(second)
-                    # priority = d[v] - 2*t[v] - (d[v] - t[v])*t[v]*p + p**2 * d_2
-                    
-                # discount of degree
-                #################new##################
+                priority = d[v] - 2*t[v] - (d[v] - t[v])*t[v]*p    
                 dd.add_task(v, -priority)
     return S
 
