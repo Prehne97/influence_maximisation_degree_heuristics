@@ -11,11 +11,8 @@ from priorityQueue import PriorityQueue as PQ
 
 
 def prob_function(p,t_v,T_v):
-  '''
-  Calculates the probability of a node v not being activated by its t_v direct seed neighbours and T_v seed second neighbours
-
-
-  '''
+  
+  #Calculates the probability of a node v not being activated by its t_v direct seed neighbours and T_v seed second neighbours
     f=1-p
     if t_v==0:
         if T_v==0:
