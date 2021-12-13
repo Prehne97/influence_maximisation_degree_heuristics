@@ -15,7 +15,6 @@ direct neighbours are indeed manageable using combinatorics, contrary to what wa
 results, we believe that our Second Neighbours Expected Influence
 heuristics may compete with current state of the art methods, as 𝑘
 increases
-![avatar](./prob2.PNG =100)
 
 ## Prerequisites
 
