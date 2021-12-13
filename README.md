@@ -9,7 +9,10 @@ Repository for SNACS research project involving degree heuristics  for the influ
 - tqdm
 - networkx
 
-run python experiment_example.py --experiment=True  to do the compare
-
-run python experiment_example.py --experiment=False  to do the new discount
+## Run Experiments
+run 
+python experiment_example.py --experiment=True  to do the compare \ 
+## Run only our new method
+run 
+python experiment_example.py --experiment=False  to do the new discount \
 
