@@ -31,12 +31,12 @@ musae-facebook:`http://snap.stanford.edu/data/facebook-large-page-page-network.h
 
 wikipidia -vote:`https://snap.stanford.edu/data/wiki-Vote.html`
 
-## Run Experiments(8 hours on Apple M1)
+## Run Experiments with Random Cascade evaluation
 run 
 
 `python main.py --experiment=True`
 
-## Run only our new method(15 minutes on Apple M1)
+## Run only Second Neighbour Expected Influence method
 run 
 
 `python main.py --experiment=False`  
