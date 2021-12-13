@@ -11,8 +11,7 @@ our improved algorithm achieves competitive runtimes, due to its
 complexity of O(𝑚+𝑛 log𝑛+𝑘 log2 𝑛), and achieves better influence
 spread than the classic degree discount method of Chen et al. [1].
 Importantly we show that expected influence calculations beyond
-direct neighbours are indeed manageable using combinatorics, con-
-trary to what was implied in [1]. Based on our new theory and
+direct neighbours are indeed manageable using combinatorics, contrary to what was implied in [1]. Based on our new theory and
 results, we believe that our Second Neighbours Expected Influence
 heuristics may compete with current state of the art methods, as 𝑘
 increases
