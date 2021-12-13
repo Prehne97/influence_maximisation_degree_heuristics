@@ -4,8 +4,7 @@ Repository for SNACS research project involving degree heuristics  for the influ
 ## abstract
 Influence maximization is the problem of finding a small subset of
 nodes, referred to as seed nodes, in a social network that together
-could maximize the spread of influence. In this paper, we investi-
-gate the degree discount method of Chen et al. [1] and derive a
+could maximize the spread of influence. In this paper, we investigate the degree discount method of Chen et al. [1] and derive a
 novel algorithm that incorporates second neighbour effects, for the
 independent cascade model. Our experimental results show that
 our improved algorithm achieves competitive runtimes, due to its
