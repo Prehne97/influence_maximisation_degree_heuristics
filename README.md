@@ -12,9 +12,9 @@ Repository for SNACS research project involving degree heuristics  for the influ
 ## Run Experiments
 run 
 
-'python experiment_example.py --experiment=True  to do the compare'
+`python experiment_example.py --experiment=True  to do the compare`
 ## Run only our new method
 run 
 
-'python experiment_example.py --experiment=False  to do the new discount' 
+`python experiment_example.py --experiment=False  to do the new discount`
 
