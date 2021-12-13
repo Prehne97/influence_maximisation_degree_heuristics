@@ -27,6 +27,11 @@ increases
 - tqdm
 - networkx
 
+## Datasets
+ego-facebook:`http://snap.stanford.edu/data/ego-Facebook.html`
+musae-facebook:`http://snap.stanford.edu/data/facebook-large-page-page-network.html`
+wikipidia -vote:`https://snap.stanford.edu/data/wiki-Vote.html`
+
 ## Run Experiments
 run 
 
