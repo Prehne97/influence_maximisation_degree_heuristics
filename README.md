@@ -1,7 +1,7 @@
-# influence_maximisation_degree_heuristics
+# Influence_Maximisation_Degree_Heuristics
 Repository for SNACS research project involving degree heuristics  for the influence maximization problem.
 
-## abstract
+## Abstract
 Influence maximization is the problem of finding a small subset of
 nodes, referred to as seed nodes, in a social network that together
 could maximize the spread of influence. In this paper, we investigate the degree discount method of Chen et al. [1] and derive a
