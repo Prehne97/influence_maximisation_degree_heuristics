@@ -37,12 +37,12 @@ wikipidia -vote:`https://snap.stanford.edu/data/wiki-Vote.html`
 ## Run Experiments(8 hours on Apple M1)
 run 
 
-`python experiment_example.py --experiment=True`
+`python main.py --experiment=True`
 
 ## Run only our new method(15 minutes on Apple M1)
 run 
 
-`python experiment_example.py --experiment=False`  
+`python main.py --experiment=False`  
 
 ## reference
 [1] Wei Chen, Yajun Wang, and Siyu Yang. 2009. Efficient Influence Maximization in
