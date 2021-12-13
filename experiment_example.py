@@ -64,7 +64,7 @@ if experiment == True:
     time_new_different_k = []
     for k in tqdm([5,10,15,20,25,30,35,40,45,50,55,60,65,70]):
         time1 = time.time()
-        s =SecondNeighbourDegreeDiscountIC(G,k,p)
+        s =SecondNeighbourDegreeDiscountIC(G,k,G_neighbor,p)
         algorithm_time = time.time()
         inf = 0
         R= 2000
@@ -86,7 +86,7 @@ if experiment == True:
         inf = 0
         R= 2000
         Rancas_time = time.time()
-        for i in range(R):
+        for i in tqdm(range(R)):
             t=runIC(G,s,p)
             inf = inf+len(t)
         inf = inf/R
@@ -102,7 +102,7 @@ if experiment == True:
         inf = 0
         R= 2000
         Rancas_time = time.time()
-        for i in range(R):
+        for i in tqdm(range(R)):
             t=runIC(G,s,p)
             inf = inf+len(t)
         inf = inf/R
