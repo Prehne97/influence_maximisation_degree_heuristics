@@ -34,12 +34,12 @@ musae-facebook:`http://snap.stanford.edu/data/facebook-large-page-page-network.h
 
 wikipidia -vote:`https://snap.stanford.edu/data/wiki-Vote.html`
 
-## Run Experiments
+## Run Experiments(8 hours on Apple M1)
 run 
 
 `python experiment_example.py --experiment=True`
 
-## Run only our new method
+## Run only our new method(15 minutes on Apple M1)
 run 
 
 `python experiment_example.py --experiment=False`  
